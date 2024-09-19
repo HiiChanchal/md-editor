@@ -1,0 +1,14 @@
+{
+  "name": "md-texteditor",
+  "version": "1.0.0",
+  "description": "\"An editor to process text in real time preview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chanchal Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
