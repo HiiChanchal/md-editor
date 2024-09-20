@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
-const port = process.env.port || 5001
+require('dotenv').config();
+const port = process.env.PORT || 5001
 const mdeditorPath = require('./routes/md.html.route')
 const cors = require('cors');
 
