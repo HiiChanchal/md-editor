@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Chanchal Kumar",
+  "homepage": "https://HiiChanchal.github.io/md-texteditor-front-end",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
