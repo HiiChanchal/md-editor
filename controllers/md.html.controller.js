@@ -6,6 +6,6 @@ exports.textToConvert = (req,res) => {
         return res.status(400).json({error : "Invalid text, Please enter text and Try again"});
     }
 
-    const textData = mdService.htmlTextConversion(markdown);
-    return res.json({ textData });
+    const html = mdService.htmlTextConversion(markdown);
+    return res.json({ html });
 }
