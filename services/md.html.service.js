@@ -1,5 +1,5 @@
 const { marked } = require("marked")
 
-exports.htmlTextConversion = (textDoc) => {
-    return marked(textDoc);
+exports.htmlTextConversion = (userText) => {
+    return marked(userText);
 }
